@@ -19,16 +19,15 @@ public class Main {
     public static String ageTemperatureOutdoor(int age, int temperature) {
 
         if ((age > 20 && age < 45) && (temperature > -20 && temperature < 30)) {
-            return"Можно идти гулять";
+            return "Можно идти гулять. " + "Возраст: " + age + " " + "Температура: " + temperature;
         } else if ((age < 20) && (temperature > 0 && temperature < 28)) {
-            return "Можно идти гулять";
+            return "Можно идти гулять. " + "Возраст: " + age + " " + "Температура: " + temperature;
         } else if (age > 45 && temperature > -10 && temperature < 25) {
-            return "Можно идти гулять";
+            return "Можно идти гулять. " + "Возраст: " + age + " " + "Температура: " + temperature;
         } else {
-            return "Оставайтесь дома";
+            return "Оставайтесь дома. " + "Возраст: " + age + " " + "Температура: " + temperature;
         }
 
-        //return "Возраст " + age + "; " + "Температура на улице " + temperature;
 
     }
 
