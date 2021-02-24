@@ -10,6 +10,7 @@ public class Main {
         System.out.println(ageTemperatureOutdoor(25,35));
         System.out.println(ageTemperatureOutdoor(6,20));
         System.out.println(ageTemperatureOutdoor(46,26));
+        System.out.println(ageTemperatureOutdoor(27,10));
         System.out.println(ageTemperatureOutdoor(generateRandomAge(),25));
     }
    public static String ageTemperatureOutdoor(int age, int temperature){
